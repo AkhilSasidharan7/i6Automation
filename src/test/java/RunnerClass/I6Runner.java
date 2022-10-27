@@ -10,8 +10,12 @@ import io.cucumber.junit.CucumberOptions;
 glue = "StepDefinitions",
 monochrome = true,
 plugin = {"pretty","html:target/TestReport.html"}
-//tags = "@Regression"
-// @EmailValidation
+
+// tags can be used for running specific group of scenarios
+// @ContactUs - For running contact us scenario
+// @Regression - For running all scenarios
+// @EmailValidation - For running email validation scenario only
+
 )
 public class I6Runner {
 

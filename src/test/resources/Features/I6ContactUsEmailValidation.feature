@@ -1,6 +1,6 @@
 Feature: i6 - Contact Us Page Email Validation
 
-  @EmailValidation
+  @Regression @EmailValidation
   Scenario Outline: Contact Us Page Email Field Validation
     Given user launch i6 home page
     Then navigates to About page
@@ -17,4 +17,4 @@ Feature: i6 - Contact Us Page Email Validation
       | abc@  | Please enter a part following '@'. 'abc@' is incomplete.             |
       | @abc  | Please enter a part followed by '@'. '@abc' is incomplete.           |
       | a@b@  | A part following '@' should not contain the symbol '@'.              |
-      | abc@. | '.' is used at a wrong position in '.'.                              |
+      | abc@. | This scenario is expected to fail                                    |

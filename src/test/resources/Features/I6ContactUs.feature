@@ -1,6 +1,6 @@
 Feature: i6 - Contact Us Page
 
-  @Regression
+  @Regression @ContactUs
   Scenario Outline: Contact Us Page Field Validation
     Given user launch i6 home page
     Then navigates to About page
