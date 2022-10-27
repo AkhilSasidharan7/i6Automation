@@ -1,4 +1,4 @@
-#HOW TO RUN:
+HOW TO RUN:
 
 	Java and Maven should be installed. 
 
@@ -8,7 +8,7 @@
 
 
 
-##About:
+About:
 
 	In this project I have automated Contact US page validation. The following scenarios are included in the test suit.
 
@@ -16,19 +16,19 @@
 	2. I6ContactUsEmailValidation.feature : Additional 6 test cases to validate email address field is included in this scenario.
 
 
-###ENVIRONMENT:
+ENVIRONMENT:
 
 	This test pack is developed in a Windows environment and chrome driver is used.
 
 	Java : 1.8.0_333
 	Maven : 3.8.6
 
-###FRAMEWORK:
+FRAMEWORK:
 
 	The project is created using BDD Cucumber framework. Gherkin language reduces the gap between business users and
 	programmers/developers.
 
 
-###Report:
+Report:
 
 	Once the execution is completed, the report can be viewed at target/TestReport.html
