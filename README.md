@@ -1,3 +1,9 @@
+PLEASE NOTE:
+
+	One scenario is expected to fail and it is intentional. 
+	This is to demonstrate that the framework can capture Screenshot during test failure and attach it to the Cucumber report. 
+	The failure scenario is the very last one in i6ContactUsEmailValidation.feature file. All other scenarios should be passing.
+
 HOW TO RUN:
 
 	Prerequisite: Java and Maven should be installed.
@@ -7,7 +13,7 @@ HOW TO RUN:
 	3. Type 'mvn clean test' and press enter
 	4. Once the execution is completed, the report can be found at target/TestReport.html
 
-About:
+ABOUT:
 
 	i6 Contact US page validations are automated here. The following scenarios are included in this test suit.
 
