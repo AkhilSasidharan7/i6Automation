@@ -1,4 +1,4 @@
-###HOW TO RUN:
+#HOW TO RUN:
 
 	Java and Maven should be installed. 
 
@@ -8,7 +8,7 @@
 
 
 
-###About:
+##About:
 
 	In this project I have automated Contact US page validation. The following scenarios are included in the test suit.
 
