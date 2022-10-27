@@ -1,0 +1,8 @@
+Pages\Home.class
+Setup\SetupBrowser.class
+StepDefinitions\StepDefinitions.class
+Setup\SetupLog.class
+CommonFunctions\CommonFunctions.class
+Pages\ContactUs.class
+Pages\About.class
+RunnerClass\I6Runner.class
